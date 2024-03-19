@@ -147,8 +147,8 @@ input:focus {
 }
 
 .button-signin {
-    background-color: rgba(255, 255, 255, 0);
-    border: solid 1px black;
+    background-color:transparent;
+    border: none;
     border-radius: 5vw;
     width: 60px;
     height: 30px;
@@ -157,7 +157,7 @@ input:focus {
 }
 
 .button-signin:hover {
-    	background: #e2bf81;
-        border-color: #e2bf81;
+    	background: #8bf794;
+        border: none;
         transition: all 0.3s ease; 
 }
