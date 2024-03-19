@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+
+
+body {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* >--- HEADER ---< */
+
+header {
+    background-color: whitesmoke;
+    background-size: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    height: 3px;
+    width: 100%;
+    border-color: grey;
+    background-color: grey;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.MenuBar {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.navigation_div {  
+    flex-grow: 1;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 16pt;
+    margin-right: 1em;
+    box-sizing: border-box;
+    padding: 3vh 2vw;
+    border-radius: 3vh;
+}
+
+li:hover {
+    background-color: #d9bf77;
+    transition: all 0.5s ease;
+}
+
+/* >--- SECTION ---< */
+section {
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 15vh 5vw 17vh 5vw; 
+}
+
+
+/* >--- CONTAINER ---< */
+.center-section-content {
+    align-items: center;   
+}
+
+.content-about {
+    display: inline-block;
+    width: 45%;
+    font-size: 15pt;
+}
+
+.content-img {
+    width: 400px;
+    height: 150px;
+    border-top-right-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+}
+
+.content-userlog {
+    background-color: whitesmoke;
+    border-radius: 5vh;
+    align-items: center;
+    display: flex;
+    float: right;
+    padding: 20px;
+}
+
+.user-LogIn-logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    border: solid 3px black;
+}
+
+/* >--- FORM ---< */
+form {
+    display: inline-block;
+}
+
+input {
+    margin: 5px;
+    height: 25px;
+    width: 250px;
+    border: solid 2px black;
+}
+
+input:focus {
+    background-color: rgba(150, 150, 255, 0.3);
+}
+
+.button-login {
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1px black;
+    border-radius: 5vw;
+    width: 60px;
+    height: 30px;
+    margin: 2vh 0 0 3vw;
+    cursor: pointer;
+}
+
+.button-login:hover {
+    	background: #e2bf81;
+        border-color: #e2bf81;
+        transition: all 0.3s ease; 
+}
